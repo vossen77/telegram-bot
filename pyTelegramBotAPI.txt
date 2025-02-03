@@ -1,0 +1,7 @@
+pyTelegramBotAPI
+numpy
+pandas
+scikit-learn
+requests
+schedule
+
