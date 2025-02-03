@@ -14,6 +14,7 @@ TOKEN = "7834804003:AAGN4HU4HXnhVxwF3AnrMDpnP7CoPTmt-xs"
 CASINO_API_URL = "https://1wcneg.com/?p=7a4t"
 REFERRAL_LINK = "https://1wcneg.com/?open=register&p=7a4t"
 ADMIN_ID = "1026933676"
+PORT = int(os.getenv("PORT", 5000))
 SIGNAL_INTERVAL = 8  # Интервал сигналов в минутах
 
 bot = telebot.TeleBot(TOKEN)
